@@ -1,0 +1,46 @@
+// Page: Content
+// -----------------------------------------------------------------------------
+.page__content {
+
+}
+
+
+.navbar-brand{
+  img{
+    width: 159px;
+    height: auto;
+  }
+}
+
+
+
+#header{
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.18);
+
+  .navbar-collapse{
+    justify-content: flex-end;
+    @media (min-width: 992px){
+      display: flex!important;
+      flex-basis: auto;
+    }
+  }
+
+  .navbar-nav{
+    @media (max-width: 991px){
+      .nav-link {
+        text-align: center;
+      }
+    }
+  }
+
+}
+
+.page-node-page{
+  .block--drupalcol-local-tasks .nav-tabs, .block--drupalcol-help, .block--status-messages, .block--drupalcol-help, #edit-actions,.vertical-tabs{
+    @extend .container;
+  }
+}
+
+
+

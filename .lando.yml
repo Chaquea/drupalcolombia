@@ -1,0 +1,25 @@
+name: drupalcolombia
+recipe: pantheon
+config:
+  webroot: web
+  framework: drupal8
+  site: drupalcolombia
+  id: 4b8c74bb-90d8-4ce1-a0b7-a6aff025c8d9
+env_file:
+  - .env
+proxy:
+  node:
+    - bs-drupalcolombia.lndo.site:3000
+services:
+  node:
+    type: node
+      #command: cd /app/web/themes/custom/drupalcol && yarn watch
+      #build:
+    #- cd /app/web/themes/custom/drupalcol && yarn install
+    #- cd /app/web/themes/custom/drupalcol && yarn dev
+    ssl: true
+tooling:
+  npm:
+    service: node
+  node:
+    service: node

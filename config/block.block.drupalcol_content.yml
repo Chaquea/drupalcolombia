@@ -1,0 +1,22 @@
+uuid: f84825ad-af27-4603-87d4-1bdba07e9214
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupalcol
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: drupalcol_content
+theme: drupalcol
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

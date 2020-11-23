@@ -1,0 +1,23 @@
+uuid: 17d83320-3340-47c3-80a2-ae28d9d1cb82
+langcode: es
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - radix
+_core:
+  default_config_hash: Q-4EcGAsu26ICu4ejEz0uE1zv4akpiaOsizxgZfAmEw
+id: radix_search
+theme: radix
+region: navbar_branding
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Buscar
+  provider: search
+  label_display: visible
+  page_id: node_search
+visibility: {  }

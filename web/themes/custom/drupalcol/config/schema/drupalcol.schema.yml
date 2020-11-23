@@ -1,0 +1,5 @@
+# Schema for the configuration files of the Drupal Colombia IO theme.
+
+drupalcol.settings:
+  type: theme_settings
+  label: 'Drupal Colombia IO settings'

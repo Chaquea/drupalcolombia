@@ -1,0 +1,22 @@
+uuid: e950fda5-ae1a-4953-a715-7d5380c48fd9
+langcode: es
+status: true
+dependencies:
+  theme:
+    - drupalcol
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: drupalcol_local_tasks
+theme: drupalcol
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Pestañas
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }
