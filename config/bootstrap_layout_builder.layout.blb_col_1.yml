@@ -1,0 +1,9 @@
+uuid: 437167bb-33b8-4617-8850-45498cab963f
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: _hceF2FU-cW_IhsB2zVkKT-QO32QmEayRhEcbAQwGbk
+id: blb_col_1
+label: 'Bootstrap 1 Col'
+number_of_columns: '1'
