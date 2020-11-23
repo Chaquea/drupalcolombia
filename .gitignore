@@ -118,6 +118,7 @@ upstream/web/
 /web/themes/README.txt
 /.drush-lock-update
 /.gitattributes
+/node_modules
 
 # Other common rules
 # ------------------
