@@ -7,6 +7,7 @@ module:
   big_pipe: 0
   block: 0
   block_content: 0
+  block_form_alter: 0
   block_style_plugins: 0
   bootstrap_layout_builder: 0
   bootstrap_styles: 0
@@ -35,6 +36,7 @@ module:
   field_ui: 0
   file: 0
   filter: 0
+  fontawesome: 0
   gin_login: 0
   gin_toolbar: 0
   help: 0
@@ -44,6 +46,7 @@ module:
   language: 0
   layout_builder: 0
   layout_builder_blocks: 0
+  layout_builder_component_attributes: 0
   layout_builder_modal: 0
   layout_discovery: 0
   layout_library: 0

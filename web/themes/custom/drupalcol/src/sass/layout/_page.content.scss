@@ -36,9 +36,10 @@
 
 }
 
-.page-node-page{
-  .block--drupalcol-local-tasks .nav-tabs, .block--drupalcol-help, .block--status-messages, .block--drupalcol-help, #edit-actions,.vertical-tabs{
+.page-node-page .node-page-layout-builder-form{
+  .layout-builder__message,.form-actions, .js-form-type-vertical-tabs{
     @extend .container;
+    padding:0;
   }
 }
 
