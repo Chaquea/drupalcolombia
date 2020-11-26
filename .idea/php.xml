@@ -132,6 +132,7 @@
       <path value="$PROJECT_DIR$/vendor/jcalderonzumba/mink-phantomjs-driver" />
       <path value="$PROJECT_DIR$/vendor/jcalderonzumba/gastonjs" />
       <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/vendor/neilime/php-css-lint" />
     </include_path>
   </component>
   <component name="PhpUnit">
