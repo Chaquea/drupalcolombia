@@ -14,9 +14,6 @@ services:
   node:
     type: node
       #command: cd /app/web/themes/custom/drupalcol && yarn watch
-      #build:
-    #- cd /app/web/themes/custom/drupalcol && yarn install
-    #- cd /app/web/themes/custom/drupalcol && yarn dev
     ssl: true
 tooling:
   npm:
